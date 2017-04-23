@@ -37,8 +37,3 @@ another
 split 
 string""")
 print('''in here we don't need to escape quotes ' or ".''')
-print()
-print()
-print()
-print()
-print()
