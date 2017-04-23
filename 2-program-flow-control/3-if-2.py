@@ -32,3 +32,6 @@ print('''FALSY values:
     bool(""),
     bool({}),
 ))
+
+print(not False)
+print(not True)
