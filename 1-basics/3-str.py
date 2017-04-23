@@ -33,3 +33,5 @@ print()
 
 today = 'friday'
 print('day' in today)
+print('fri' in today)
+print('thur' in today)
