@@ -13,4 +13,11 @@ list2 = list1
 list2.sort(reverse=True)
 print(list1)
 print(list2)
-print(list1 == list1)  # TRUE - both lists are changed
+print(list1 == list2)  # TRUE - both lists are changed
+print(list1 is list2)  # TRUE - both lists are the same
+
+list3 = list(list1)
+print(list1 == list3)  # TRUE - they are equals
+print(list1 is list3)  # FALSE - but they are not the same
+print('==============================================')
+
