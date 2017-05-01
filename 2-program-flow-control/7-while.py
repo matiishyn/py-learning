@@ -1,15 +1,16 @@
-import random
+i = 0
+while i < 10:
+    print(i)
+    i += 1
 
-highest = 10
-answer = random.randint(1, highest)
+print('============================================')
 
-guess = ''
-
-while guess != answer:
-    guess = int(input('Guess an int number in [1,10):'))
-    if guess < answer:
-        print('Guess higher')
-    elif guess > answer:
-        print('Guess lower')
-    else:
-        print('{} is a correct answer'.format(guess))
+correctNumbers = ['1', '3', '5', '7', '9']
+chosen = ''
+while chosen not in correctNumbers:
+    chosen = input('odd number 0-10? ')
+    if chosen == 'exit':
+        print('Game over :(')
+        break
+else:
+    print('{} is a correct odd number'.format(chosen))
