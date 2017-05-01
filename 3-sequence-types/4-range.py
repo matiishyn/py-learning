@@ -58,6 +58,7 @@ print('=' * 50)
 backStr = 'nohtyP'
 print(backStr[::-1])  # printed backward
 
+
 r = range(0, 10)
 for i in r[::-1]:
     print(i)  # 9 8 7 6 5 4 3 2 1 0
